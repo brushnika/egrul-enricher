@@ -1,4 +1,3 @@
-```markdown
 # 🏢 Обогащение данных из ЕГРЮЛ
 
 Скрипт для дополнения данных о компаниях из ЕГРЮЛ: ИНН, ОГРН, руководитель.
@@ -39,20 +38,29 @@
 
 ```bash
 pip install selenium webdriver-manager openpyxl requests free-proxy
-
+```
 ## 🚀 Запуск
 
 1) Открой egrul_enricher.py
 
 2) Измени настройки:
+```bash
 INPUT_EXCEL_PATH = "companies.xlsx"  # путь к исходному Excel
 USE_PROXY = True                     # использовать ли прокси
 PAUSE_MIN = 8.0                      # мин. пауза между запросами
 PAUSE_MAX = 15.0                     # макс. пауза
-
-3) Запусти:
+```
+4) Запусти:
+```bash
 python egrul_enricher.py
+```
 
 ## 📊 Результат
 Excel-файл с дополненными данными:
 companies_ЕГРЮЛ_2026-06-29_01-46.xlsx
+
+
+## 👤 Автор
+
+**Алина Даскэлу**
+- GitHub: [@brushnika](https://github.com/brushnika)
